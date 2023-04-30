@@ -11,6 +11,7 @@ export const FriendsItem = styled.li`
   padding-left: 10px;
   background-color: #fff;
   margin-bottom: 10px;
+  border-radius: 10px;
   box-shadow: 2px 5px 5px silver;
 `;
 

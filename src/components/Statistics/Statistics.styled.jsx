@@ -21,8 +21,9 @@ export const Statistic = styled.section`
   border: 1px solid silver;
   text-align: center;
   padding-top: 20px;
-  border-radius: 10px;
+  
   background-color: #fff;
+  box-shadow: 2px 5px 5px silver;
 `;
 export const StatisticTitle = styled.h2`
   text-transform: uppercase;

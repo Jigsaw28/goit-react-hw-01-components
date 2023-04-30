@@ -2,7 +2,7 @@ import user from './Profile/user.json';
 import stats from './Statistics/data.json';
 import friends from './FriendList/friends.json';
 import transactions from './Transactions/transactions.json'
-import { Transactions } from './Transactions/Transactions';
+import { Transactions } from './Transactions/Transactions.jsx';
 import { FriendList } from './FriendList/FriendList';
 import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
@@ -20,7 +20,7 @@ const App = () => {
     />
       <Statistics title="Upload stats" stats={stats} />
       <FriendList friends={friends} />
-      <Transactions items={transactions} />;
+      <Transactions items={transactions} />
       </Container>
   );
 };
